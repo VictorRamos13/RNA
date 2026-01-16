@@ -1,11 +1,70 @@
-DNN/
-  models/
-  dataset/
-  
-CNN/
-  models/
-  dataset/
+# ============================
+# Gitignore para projeto de RNA
+# ============================
 
-LSTM/
-  models/
-  dataset/
+# Ignorar pastas de modelos e datasets em cada arquitetura
+DNN/models/
+DNN/dataset/
+atividade_DNN/dataset_poquer/
+atividade_DNN/models/
+CNN/models/
+LSTM/models/
+LSTM/dataset/
+GAN_MNIST/models/
+LLM/models/
+LLM/dataset/
+LLM/modelo_bert_qa_pt/
+
+# ============================
+# Arquivos comuns de ML/DL
+# ============================
+
+# Checkpoints e pesos de modelos
+*.ckpt
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Logs de treinamento
+*.log
+logs/
+wandb/
+
+# Saídas temporárias
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebooks temporários
+.ipynb_checkpoints/
+
+# Cache do Python
+*.cache
+*.egg-info/
+.eggs/
+
+# Arquivos de ambiente virtual
+.env
+.venv/
+venv/
+ENV/
+
+# Arquivos de configuração locais
+*.local
+*.DS_Store
+Thumbs.db
+
+# ============================
+# Extras úteis
+# ============================
+
+# Arquivos de resultados ou gráficos
+outputs/
+results/
+figures/
+
+# Arquivos temporários de IDEs
+.vscode/
+.idea/
