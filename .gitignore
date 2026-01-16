@@ -1,0 +1,11 @@
+DNN/
+  models/
+  dataset/
+  
+CNN/
+  models/
+  dataset/
+
+LSTM/
+  models/
+  dataset/
